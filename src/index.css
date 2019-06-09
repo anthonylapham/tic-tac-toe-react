@@ -7,6 +7,14 @@ body {
   background-color: #F8D15F;
 }
 
+button.square[data-pro='X'] {
+  color: blue;
+}
+
+button.square[data-pro='O'] {
+  color: red;
+}
+
 
 ol, ul {
   padding-left: 50px;
@@ -20,6 +28,7 @@ ol, ul {
 
 .status {
   margin-bottom: 10px;
+  color: black;
 }
 
 .square {
@@ -35,6 +44,7 @@ ol, ul {
   padding: 0;
   text-align: center;
   width: 120px;
+
 }
 
 .square:focus {
